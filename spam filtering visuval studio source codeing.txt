@@ -1,0 +1,36 @@
+<%@ Page Language="C#" AutoEventWireup="true"  CodeFile="Default.aspx.cs" Inherits="_Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body bgcolor="#66ffff" background="IMAGE/sms%20spam.jpg">
+    <form id="form1" runat="server">
+    <div>
+    
+        <asp:Button ID="Button1" runat="server" style="margin-left: 234px" Text="Home" 
+            Width="95px" />
+        <asp:Button ID="Button2" runat="server" style="margin-left: 19px" Text="About" 
+            Width="87px" />
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button3" runat="server" Text="Spam" />
+    
+    </div>
+    <asp:Label ID="Label1" runat="server" Text="SmartBridge"></asp:Label>
+    <p>
+        &nbsp;</p>
+    </form>
+    <p>
+&nbsp;
+    </p>
+    <p>
+        &nbsp;</p>
+    <p style="font-size: 40px; font-style: oblique">
+        SMS SPAM DETECTION </p>
+<p style="font-size: 40px; font-style: oblique">
+    USING NLP.</p>
+</body>
+</html>
